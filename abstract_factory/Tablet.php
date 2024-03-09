@@ -3,5 +3,5 @@
 
 interface Tablet
 {
- public function  switchOn();
+    public function switchOn();
 }
