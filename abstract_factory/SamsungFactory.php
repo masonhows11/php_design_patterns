@@ -1,8 +1,9 @@
 <?php
 
-include 'abstract_factory/DeviceFactory.php';
-include 'abstract_factory/SamsungProduct.php';
+include 'DeviceFactory.php';
+include 'SamsungProduct.php';
 
+//// this is samsung class factory
 class SamsungFactory implements DeviceFactory
 {
 

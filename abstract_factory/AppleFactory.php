@@ -1,8 +1,9 @@
 <?php
 
-include 'abstract_factory/DeviceFactory.php';
-include 'abstract_factory/AppleProduct.php';
+include 'DeviceFactory.php';
+include 'AppleProduct.php';
 
+//// this is apple class factory
 class AppleFactory implements DeviceFactory
 {
 

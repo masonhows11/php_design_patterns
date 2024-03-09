@@ -1,7 +1,7 @@
 <?php
 
-include 'abstract_factory/smartPhone.php';
-include 'abstract_factory/tablet.php';
+include 'smartPhone.php';
+include 'tablet.php';
 
 //// SamsungPhone product class
 class SamsungPhone implements SmartPhone
@@ -9,12 +9,12 @@ class SamsungPhone implements SmartPhone
 
     public function switchOn()
     {
-        echo 'Samsung Smartphone: Switching on';
+        echo 'Samsung phone switching on ';
     }
 
     public function ring()
     {
-        echo 'Samsung Smartphone: Ringing';
+        echo 'Samsung smartphone ringing ';
     }
 }
 
@@ -24,6 +24,6 @@ class SamsungTablet implements Tablet
 
     public function switchOn()
     {
-        echo 'Samsung Smartphone: Switching on';
+        echo 'Samsung tablet  switching on ';
     }
 }
