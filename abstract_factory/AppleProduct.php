@@ -1,6 +1,7 @@
 <?php
 
 include 'abstract_factory/smartPhone.php';
+include 'abstract_factory/tablet.php';
 
 class ApplePhone implements SmartPhone
 {
@@ -15,3 +16,14 @@ class ApplePhone implements SmartPhone
         echo 'Apple Smartphone: Ringing';
     }
 }
+
+
+class AppleTablet implements  Tablet {
+
+    public function switchOn()
+    {
+        echo 'Apple Smartphone: Switching on';
+    }
+
+}
+
