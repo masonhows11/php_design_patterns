@@ -14,7 +14,7 @@ class SamsungPhone implements SmartPhone
 
     public function ring()
     {
-        echo 'Samsung smartphone ringing ';
+        echo 'Samsung phone ringing ';
     }
 }
 

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,11 +17,10 @@
     <select name="make" id="factory">
         <option value="apple">Apple</option>
         <option value="samsung">Samsung</option>
-    <select>
-    <input type="submit" value="Go!">
+        <select>
+            <input type="submit" value="Go!">
 
 </form>
-
 
 
 </body>
@@ -49,9 +47,9 @@ if (isset($_REQUEST["make"])) {
     $phone = $factory->createPhone();
     $tablet = $factory->creatTablet();
 
-    echo "Phone: " . '  ' . $phone->switchOn() . "</br>";
-    echo "Phone: " . '  ' . $phone->ring() . "</br>";
-    echo "Tablet: " . '  ' . $tablet->switchOn() . "</br>";
+    echo  $phone->switchOn() . "</br>";
+    echo $phone->ring() . "</br>";
+    echo $tablet->switchOn() . "</br>";
 }
 ?>
 
