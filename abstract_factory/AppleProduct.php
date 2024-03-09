@@ -3,6 +3,7 @@
 include 'abstract_factory/smartPhone.php';
 include 'abstract_factory/tablet.php';
 
+//// ApplePhone product class
 class ApplePhone implements SmartPhone
 {
 
@@ -17,7 +18,7 @@ class ApplePhone implements SmartPhone
     }
 }
 
-
+//// AppleTablet product class
 class AppleTablet implements  Tablet {
 
     public function switchOn()
