@@ -29,6 +29,9 @@
 </html>
 <?php
 
+include 'SmartPhone.php';
+include 'Tablet.php';
+include 'DeviceFactory.php';
 include 'AppleFactory.php';
 include 'SamsungFactory.php';
 

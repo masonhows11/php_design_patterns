@@ -1,6 +1,6 @@
 <?php
 
-include 'DeviceFactory.php';
+// include 'DeviceFactory.php';
 include 'AppleProduct.php';
 
 //// this is apple class factory

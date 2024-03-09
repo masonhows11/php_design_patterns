@@ -1,7 +1,7 @@
 <?php
 
-include 'smartPhone.php';
-include 'tablet.php';
+// include 'smartPhone.php';
+// include 'tablet.php';
 
 //// SamsungPhone product class
 class SamsungPhone implements SmartPhone
