@@ -1,17 +1,18 @@
 <?php
 
 include 'abstract_factory/DeviceFactory.php';
+include 'abstract_factory/AppleProduct.php';
 
 class AppleFactory implements DeviceFactory
 {
 
     public function createPhone()
     {
-        // TODO: Implement createPhone() method.
+        return new ApplePhone();
     }
 
     public function creatTablet()
     {
-        // TODO: Implement creatTablet() method.
+         return new AppleTablet();
     }
 }

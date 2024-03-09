@@ -1,17 +1,18 @@
 <?php
 
 include 'abstract_factory/DeviceFactory.php';
+include 'abstract_factory/SamsungProduct.php';
 
 class SamsungFactory implements DeviceFactory
 {
 
     public function createPhone()
     {
-        // TODO: Implement createPhone() method.
+       return new SamsungPhone();
     }
 
     public function creatTablet()
     {
-        // TODO: Implement creatTablet() method.
+       return new SamsungTablet();
     }
 }
